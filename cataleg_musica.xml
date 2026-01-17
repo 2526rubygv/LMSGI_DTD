@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg_musica SYSTEM "cataleg_musica.dtd">
+<cataleg_musica>
+
+  <llista_artistes>
+   <artista id="a1">
+     <nom>BTS</nom>
+     <pais>Corea del Sur</pais>
+     <genere>K-pop</genere>
+   </artista>
+
+   <artista id="a2">
+     <nom>Twice</nom>
+     <pais>Corea del Sur</pais>
+   </artista>
+
+   <artista id="a3">
+     <nom>Stray Kids</nom>
+     <genere>K-pop</genere>
+   </artista>
+  </llista_artistes>
+
+  <llista_albumes>
+   <album id="al1">
+     <titol>Map of the Soul: 7</titol>
+     <any>2020</any>
+     <artistes>
+       <artista_ref ref="a1"/>
+     </artistes>
+   </album>
+
+   <album id="al2">
+     <titol>Formula of Love: O+T=&lt;3</titol>
+     <any>2021</any>
+     <artistes>
+       <artista_ref ref="a2"/>
+     </artistes>
+   </album>
+
+    <album id="al3">
+     <titol>NOEASY</titol>
+     <any>2021</any>
+     <artistes>
+       <artista_ref ref="a3"/>
+     </artistes>
+   </album>
+  </llista_albumes>
+
+  <llista_recomanacions_albumes>
+   <recomanacio ref="al1"/>
+   <recomanacio ref="al2"/>
+   <recomanacio ref="al3"/>
+  </llista_recomanacions_albumes>
+</cataleg_musica>
