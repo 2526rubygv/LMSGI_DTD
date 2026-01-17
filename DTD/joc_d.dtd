@@ -1,0 +1,11 @@
+<!ELEMENT joc (titol, companyia, plataforma, anyLlançament, personatges)>
+
+<!ELEMENT personatges (personatge+)>
+<!ELEMENT personatge (nom)>
+<!ATTLIST personatge tipus CDATA #REQUIRED jugable CDATA #REQUIRED>
+
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT companyia (#PCDATA)>
+<!ELEMENT plataforma (#PCDATA)>
+<!ELEMENT anyLlançament (#PCDATA)>
