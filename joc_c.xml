@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE joc SYSTEM "joc_c.dtd">
+<joc>
+    <titol>Jak and Daxter</titol>
+    <companyia>Naughty Dog</companyia>
+    <plataforma>PlayStation 2</plataforma>
+    <anyLlançament>2001</anyLlançament>
+
+    <personatges>
+        <personatge tipus="heroi">
+            <nom>Jak</nom>
+        </personatge>
+        <personatge tipus="company">
+            <nom>Daxter</nom>
+        </personatge>
+        <personatge tipus="mentora">
+            <nom>Samos</nom>
+        </personatge>
+    </personatges>
+</joc>

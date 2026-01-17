@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE joc SYSTEM "joc_d.dtd">
+<joc>
+    <titol>Zelda BOTW</titol>
+    <companyia>Nintendo</companyia>
+    <plataforma>Nintendo Switch</plataforma>
+    <anyLlançament>2017</anyLlançament>
+
+    <personatges>
+        <personatge tipus="heroi" jugable="si">
+            <nom>Link</nom>
+        </personatge>
+    </personatges>
+</joc>
